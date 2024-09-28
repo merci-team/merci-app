@@ -329,55 +329,64 @@ const menuItems = {
   Specials: [
     {
       name: "Mango Matcha Latte",
-      description: "Matcha latte with mango.",
+      description:
+        "A refreshing blend of premium matcha powder and luscious mango, served chilled for a delightful drink.",
       priceIced: "MYR 18.00",
       image: "mango-matcha-latte.jpg",
     },
     {
       name: "Raspberry Latte",
-      description: "Latte with raspberry syrup.",
+      description:
+        "A velvety latte infused with rich raspberry syrup and puree, delivering a perfect balance of sweetness and creaminess in every sip.",
       priceIced: "MYR 18.00",
       image: "raspberry-latte.jpg",
     },
     {
       name: "French Ice Cream Latte",
-      description: "Latte with French ice cream.",
+      description:
+        "Indulge in this luxurious latte made with creamy French ice cream, creating a rich and smooth experience that's perfect for warm days.",
       priceIced: "MYR 20.00",
       image: "french-ice-cream-latte.jpg",
     },
     {
-      name: "Avocado Milkshake",
-      description: "Avocado milkshake with ice cream.",
+      name: "Avocado Shake",
+      description:
+        "A creamy and dreamy avocado milkshake blended with rich ice cream, creating a luscious treat that’s both nutritious and satisfying.",
       priceIced: "MYR 20.00",
       image: "avocado-milkshake.jpg",
     },
     {
-      name: "Mango Milkshake",
-      description: "Mango milkshake with ice cream.",
+      name: "Mango Shake",
+      description:
+        "A tropical delight, this mango milkshake combines ripe mangoes with creamy ice cream for a refreshing and indulgent experience.",
       priceIced: "MYR 18.00",
       image: "mango-milkshake.jpg",
     },
     {
-      name: "Saffron Milkshake",
-      description: "Saffron milkshake with ice cream.",
+      name: "Saffron Shake",
+      description:
+        "Experience luxury with our saffron milkshake, infused with delicate strands of saffron and creamy ice cream for a rich and aromatic treat.",
       priceIced: "MYR 20.00",
       image: "saffron-milkshake.jpg",
     },
     {
       name: "Strawberry Frappuccino",
-      description: "Strawberry frappuccino with whipped cream.",
+      description:
+        "A vibrant strawberry frappuccino topped with whipped cream, delivering a refreshing burst of flavor that’s perfect for any occasion.",
       priceIced: "MYR 18.00",
       image: "strawberry-frappuccino.jpg",
     },
     {
       name: "Banana Frappuccino",
-      description: "Banana frappuccino with whipped cream.",
+      description:
+        "Enjoy the rich flavor of bananas in this delightful frappuccino, topped with fluffy whipped cream for a deliciously sweet treat.",
       priceIced: "MYR 18.00",
       image: "banana-frappuccino.webp",
     },
     {
       name: "Strawberry Soda",
-      description: "A delicious carbonated strawberry drink.",
+      description:
+        "A bubbly and refreshing carbonated drink bursting with real strawberry flavor, perfect for a light and fruity thirst quencher.",
       priceIced: "MYR 12.00",
       image: "strawberry-soda.jpg",
     },

@@ -24,33 +24,26 @@ const Category = ({ category, items }) => {
               />
             )}
             <div className="p-5">
-              <h3 className="text-xl font-bold text-[#203732]">{item.name}</h3>
-              <p className="text-gray-600 text-sm mb-3">{item.description}</p>
+              <h3 className="text-xl font-bold text-[#203732] mb-2">
+                {item.name}
+              </h3>
+              <p className="text-gray-600 text-sm mb-4">{item.description}</p>
 
-              <div className="mt-3">
+              <div className="mt-3 flex flex-wrap gap-2">
                 {item.priceHot && (
-                  <p className="text-gray-700">
-                    Hot:{" "}
-                    <span className="font-bold text-[#203732]">
-                      {item.priceHot}
-                    </span>
-                  </p>
+                  <span className="bg-[#203732] text-white font-bold py-1 px-3 rounded-full text-sm">
+                    Hot: {item.priceHot}
+                  </span>
                 )}
                 {item.priceIced && (
-                  <p className="text-gray-700">
-                    Iced:{" "}
-                    <span className="font-bold text-[#203732]">
-                      {item.priceIced}
-                    </span>
-                  </p>
+                  <span className="bg-[#203732] text-white font-bold py-1 px-3 rounded-full text-sm">
+                    Iced: {item.priceIced}
+                  </span>
                 )}
                 {!item.priceHot && !item.priceIced && (
-                  <p className="text-gray-700">
-                    Price:{" "}
-                    <span className="font-bold text-[#203732]">
-                      {item.price}
-                    </span>
-                  </p>
+                  <span className="bg-[#203732] text-white font-bold py-1 px-3 rounded-full text-sm">
+                    Price: {item.price}
+                  </span>
                 )}
               </div>
             </div>
