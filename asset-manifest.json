@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/merci-app/static/css/main.9b051705.css",
-    "main.js": "/merci-app/static/js/main.7f44b36d.js",
+    "main.js": "/merci-app/static/js/main.98c3da26.js",
     "static/js/453.f9c61cde.chunk.js": "/merci-app/static/js/453.f9c61cde.chunk.js",
     "index.html": "/merci-app/index.html",
     "main.9b051705.css.map": "/merci-app/static/css/main.9b051705.css.map",
-    "main.7f44b36d.js.map": "/merci-app/static/js/main.7f44b36d.js.map",
+    "main.98c3da26.js.map": "/merci-app/static/js/main.98c3da26.js.map",
     "453.f9c61cde.chunk.js.map": "/merci-app/static/js/453.f9c61cde.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9b051705.css",
-    "static/js/main.7f44b36d.js"
+    "static/js/main.98c3da26.js"
   ]
 }
