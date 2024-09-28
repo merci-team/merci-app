@@ -14,7 +14,7 @@ const Category = ({ category, items }) => {
           >
             {item.image && (
               <img
-                src={`merci-app/images/${item.image}`}
+                src={process.env.PUBLIC_URL + `/images/${item.image}`}
                 alt={item.name}
                 className="h-40 w-full object-cover rounded-lg mb-4"
               />
